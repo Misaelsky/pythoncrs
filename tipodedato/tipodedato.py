@@ -1,8 +1,12 @@
 # TIPODE DATO
-nombredepersona = "Misael"
-edaddepersona = 27
-altura = 1.76
-Soltero = True
+print("Escribe tu Nombre: ")
+nombredepersona = str(input())
+print("Escribe tu edad: ")
+edaddepersona = input()
+print("Escribe tu Altura: ")
+altura = str(input())
+print("Eres soltero: ")
+Soltero = str(input())
 # nombredepersona = 13
 print("Nombre: " +nombredepersona)
 print("Edad: " + str(edaddepersona))
