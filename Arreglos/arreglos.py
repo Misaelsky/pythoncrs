@@ -1,4 +1,4 @@
-arreglo = (0,1,2,3,4,5)
+arreglo = ("Misael",1,2.5,True,4,5)
 
 for item in arreglo:
     print(item)
