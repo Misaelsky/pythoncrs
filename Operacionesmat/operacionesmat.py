@@ -13,6 +13,7 @@ potencia1 = float(num1) ** float(num2)
 potencia2 = pow(float(num1), float(num2))
 raiz_cuad = pow(float(num1), float(1/2))
 raiz_cub = pow(float(num1), float(1/3))
+residuo = float(num1) % float(num2)
 
 
 # Impresiones
@@ -25,3 +26,4 @@ print(potencia1)
 print(potencia2)
 print(raiz_cuad)
 print(raiz_cub)
+print(residuo)
