@@ -1,4 +1,5 @@
 # Calcular formula general
+# Valores para la ecuacion x^2 + 2x -3
 va = float(input("Inserta valor de a:"))
 vb = float(input("Inserta valor de b:"))
 vc = float(input("Inserta valor de c:"))
