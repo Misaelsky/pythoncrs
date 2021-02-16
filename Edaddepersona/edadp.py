@@ -1,6 +1,6 @@
 # Calcular edad
 
-añoactual = input("Que dia es?:")
+añoactual = input("Que año es?:")
 añonac = input("En que año naciste?")
 
 edad = int(añoactual) - int(añonac)
