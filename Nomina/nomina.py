@@ -6,7 +6,7 @@ mes = dia *31
 
 brut = mes * 1.16
 
-ivat = brut * 0.16 * (2 / 3 )
+ivat = mes * 0.16 * (2 / 3 )
 
 isr = mes * 0.10
 
