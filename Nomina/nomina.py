@@ -2,15 +2,15 @@
 
 dia = float(input("Escriba su sueldo del dia:"))
 
-mes = dia *30.4
+mes = dia *31
 
-iva = mes *0.16
+brut = mes * 1.16
 
-ivat = iva * (2 / 3 )
+ivat = brut * 0.16 * (2 / 3 )
 
 isr = mes * 0.10
 
-sueldo = mes - ivat - isr
+sueldo = brut - ivat - isr
 
 print("Tu sueldo mensual es:" + str(sueldo))
 
