@@ -1,37 +1,20 @@
 # Imprimir los arreglos de un diccionario
 
-cdmx = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-edomex = ["Estado de Mexico", "16.99 M", "22.500 KM2"]
-michoacan = ["Michoacan", "4.749 M", "58.599 KM2"]
-jalisco = ["Jalisco", "8.348 M", "78.588 KM2"]
-slp = ["San Luis Potosi", "2.822 M", "61.137 KM2"]
-guanajuato = ["Guanajuato", "6.167 M", "30.607 KM2"]
-queretaro = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-oaxaca = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-guerrero = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-sinaloa = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-bcn = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-bcs = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-sonora = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-chihuahua = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-coahuila = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-tamaulipas = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-chiapas = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-colima = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-yucatan = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-durango = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-zacatecas = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-tamaulipas = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-quintanaroo = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-tabasco = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-veracruz = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-aguascalientes = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-nuevo_leon = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-nayarit = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-hidalgo = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-morelos = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-puebla = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
-tlaxcala = ["Ciudad de Mexico", "8.85 M", "1.485 KM2"]
+data = [
+            {"ciudad" : "Ciudad de Mexico", "Poblacion" : "8.85 M", "Extension en KM2" : 1.485},
+            {"ciudad" : "Estado de Mexico", "Poblacion" :"16.99 M", "Extension en KM2" : 22.500},
+            {"ciudad" : "Michoacan", "Poblacion" : "4.749 M", "Extension en KM2" : 58.599},
+            {"ciudad" : "Jalisco", "Poblacion" : "8.348 M", "Extension en KM2" : 78.588},
+            {"ciudad" : "San Luis Potosi", "Poblacion" : "2.822 M", "Extension en KM2" : 61.137},
+            {"ciudad" : "Guanajuato", "Poblacion" : "6.167 M", "Extension en KM2" : 30.607},
+        ]
 
+
+
+for d in data:
+    if d["Extension en KM2"] >= 1:
+        print(d)
+        print("************************************************************")
+        
 
 
